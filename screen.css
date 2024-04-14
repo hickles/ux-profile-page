@@ -1,4 +1,40 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+.card.mb-3 {
+  border: none;
+  margin-top: 24px;
+  margin-left: 48px;
+}
+
+.card .col-md-4 {
+    max-width: 200px; 
+}
+
+.card .img-fluid.rounded-start {
+    border-radius: 50%; 
+}
+
+.nav.nav-tabs {
+  margin-top: 24px;
+  margin-left: 48px;
+  margin-bottom: 36px;
+}
+
+#two {
+  margin-top: 24px;
+}
+
+.left {
+  margin-right: 24px;
+}
+
+.card.text-bg-dark {
+  margin-top: 24px;
+  height: 200px;
+  border: none;
+}
+
+.d-flex {
+  position: absolute;
+  right: 48px;
+  top: 16px;
 }
